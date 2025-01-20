@@ -1,0 +1,35 @@
+CREATE DATABASE optimizacionparqueo;
+
+USE optimizacionparqueo;
+
+CREATE TABLE tbadministradores (
+  CodigoAdmin int NOT NULL AUTO_INCREMENT,
+  IDAdmin varchar(20) NOT NULL,
+  NombreAdmin varchar(20) NOT NULL,
+  CorreoAdmin varchar(50) NOT NULL,
+  ContrasenaAdmin varchar(50) NOT NULL,
+  PRIMARY KEY(CodigoAdmin)
+);
+
+CREATE TABLE tbclientes (
+  CodigoCliente int NOT NULL AUTO_INCREMENT,
+  IDCliente varchar(20) NOT NULL,
+  NombreCliente varchar(20) NOT NULL,
+  CorreoCliente varchar(50) NOT NULL,
+  ContrasenaCliente varchar(50) NOT NULL,
+  PRIMARY KEY(CodigoCliente)
+);
+
+CREATE TABLE usuariosparqueo (
+  CodigoUser int NOT NULL AUTO_INCREMENT,
+  NombreUser varchar(50) NOT NULL,
+  PlacaUser varchar(10) NOT NULL,
+  TipoAutomovil varchar(30) NOT NULL,
+  PRIMARY KEY(CodigoUser)
+);
+
+INSERT INTO `tbadministradores` (`CodigoAdmin`, `IDAdmin`, `NombreAdmin`, `CorreoAdmin`, `ContrasenaAdmin`) VALUES
+(1, '1', 'Tecnologico', 'tecnologico@tecnologico.edu.co', '12345tecnologico56789Medellin');
+
+INSERT INTO `tbclientes` (`CodigoCliente`, `IDCliente`, `NombreCliente`, `CorreoCliente`, `ContrasenaCliente`) VALUES
+(1, '1', 'Tecnologico', 'agendamiento@agendamiento.com', '12345Agendar56789');

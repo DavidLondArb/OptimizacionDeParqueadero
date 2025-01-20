@@ -1,0 +1,266 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/11/2021, 01:39:02 AM
+    Author     : David
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/11/2021, 01:59:38 PM
+    Author     : David
+*/
+
+body{
+    background-color: #00D0D9;
+}
+.buco h1{
+    position: absolute;
+    color: #FFFFFF;
+    font: 150px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.Carros{
+    left: 3%;
+    top: 16%;
+}
+.Motos{
+    left: 3%;
+    top: 40%;
+}
+.txtMotos{
+    position: absolute;
+    left: 4%;
+    top: 57%;
+    color: #FFFFFF;
+    font: 50px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.txtCarros{
+    position: absolute;
+    left: 4%;
+    top: 32%;
+    color: #FFFFFF;
+    font: 50px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.Esp{
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    color: #FFFFFF;
+    font: 50px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.Dis{
+    position: absolute;
+    left: 4%;
+    top: 8%;
+    color: #FFFFFF;
+    font: 50px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+
+.buco img{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.contenedor h1{
+    text-align: center;
+    font-size: 100px;
+}
+.contenedor{
+    width: 77%;
+    height: 80%;
+    margin: 30px;
+    background-color: #BBF9FC;
+    overflow: hidden;
+    margin-right: 100px;
+    position:absolute;
+    left: 20%;
+    border-radius:25px;
+    overflow: auto;
+}
+.Agregar{
+    position: absolute;
+    top: 85%;
+    left: 92%;
+}
+
+.elegirReg{
+    position:fixed;
+    top:-2000px;
+    left: 0;
+    z-index: 99999;
+    background: rgba(0,0,0,0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+.elegirReg .contentido{
+    width: 100%;
+    height:500px;
+    max-width: 900px;
+    position: fixed;
+    left: 40%;
+    top: -100vh;
+    transition: top 0.35s ease;
+    margin-left: -250px;
+    background: #00d0d9;
+    box-shadow: 0 10px 2px rgba(23, 22, 22, 0.57);
+    z-index: 1000000;
+    border: 8px solid #006b70;
+    border-radius:20px;
+    text-align:center;
+} 
+.elegirReg header{
+    padding:20px;
+    border-bottom:8px solid #006b70;
+}
+#cuentas{
+    margin-top:20px;
+    text-decoration:none;
+    width:70%;
+    color:black;
+    background:#bbf9fc;
+    padding:20px;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    display:block;
+    border-radius:20px;
+    border: 8px solid #006b70;
+    font-size:50px;
+}
+.cerrar{
+    color: black;
+    position: absolute;
+    bottom:0.2em;
+    right: 0.375em;
+    padding: 5px;
+    text-decoration:none;
+    font-size:30px;
+}
+.elegirReg a:hover{
+    color:rgb(162 16 16);
+}
+.elegirReg:target{
+    opacity:1;
+    top:0px;
+}
+.elegirReg:target .contentido{
+    top:70px;
+    transition: top 0.35s ease;
+}
+.formInput{
+    width: 70%;
+    height: 27px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    margin-top:50px;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.ajuste{
+    position: relative;
+    background-color: #39d2d7;
+    max-width: 100%;
+    top: 3%;
+    list-style: none;
+    padding: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.ajuste ul{
+    list-style: none;
+}
+.ajuste:hover .submenu{
+    display: flex;
+}
+
+.submenu{
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    background-color: #BBF9FC;
+    padding-left: 20px;
+    padding-right: 10px;
+    z-index: 200;
+    left: 20%;
+    display: none;
+    top: -30px;
+    width: 50%;
+}
+
+.submenu img{
+    position: absolute;
+    left: 600px;
+    top: -110px;
+}
+#AutoUser1 {
+    left: 30%;
+    width: 100px
+}
+#AutoUser2 {
+    left: 55%;
+    top: -80px;
+    width: 100px
+}
+.AutoMoto{
+    text-align: center;
+    position: absolute;
+    left: 33%;
+    top: 63%;
+    font-size: 30px;
+    background-color: white;
+    height: 6%;
+    width: 150px;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+
+.AutoCarro{
+    text-align: center;
+    position: absolute;
+    left: 58%;
+    top: 63%;
+    font-size: 30px;
+    background-color: white;
+    height: 6%;
+    width: 150px;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+.ingresar{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ingresar:hover{
+    background: #7bc1c4;
+    transition: all .3s;
+}

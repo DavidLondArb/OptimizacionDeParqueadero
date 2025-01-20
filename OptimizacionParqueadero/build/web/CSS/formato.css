@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/10/2021, 11:41:02 PM
+    Author     : David
+*/
+body{
+    background-color: #00D0D9;
+}
+.buco h1{
+    position: absolute;
+    font-size: 100px;
+
+    color: #FFFFFF;
+    font: 300px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.buco h2{
+    position: absolute;
+    font-size: 100px;
+    
+    color: #FFFFFF;
+    font: 100px "Fira Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+.ajuste{
+    position: absolute;
+    left: 40px;
+    top: 3%;
+    list-style: none;
+    padding: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.Espacios{
+    left: 27%;
+    top: 20%;
+}
+.txtMotos{
+    top: 63%;
+    left: 60%;
+}
+.txtCarros{
+    top: 63%;
+    left: 21%;
+}
+.Motos{
+    left: 55%;
+    top: 30%;
+}
+.Carros{
+    left: 20%;
+    top: 30%;
+}
+.ajuste img{
+    opacity: 100%;
+}
+.ajuste ul{
+    list-style: none;
+}
+.ajuste:hover .submenu{
+    display: flex;
+}
+
+.submenu{
+    flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #BBF9FC;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    z-index: 200;
+    left: 10px;
+    display: none;
+    top: 0px;
+    width: 250px;
+}
+.submenu a{
+    color: #47525E;
+    text-align: center;
+    text-decoration: none;
+    right: 80%;
+    font-size: 40px;
+    border-bottom: 0px solid #FBE5AF;
+    margin-left: 20px;
+}
+.submenu img{
+    position: static;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.submenu div{
+    background-color: #CEFDFF;
+    padding-left: 0px;
+    height: 70px;
+    width: 250px;
+}
+.BORDE{
+    border-bottom: 1px solid #8492A6;
+}

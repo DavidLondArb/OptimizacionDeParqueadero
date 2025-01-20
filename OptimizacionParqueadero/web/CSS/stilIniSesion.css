@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/10/2021, 07:07:05 PM
+    Author     : David
+*/
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 50px;
+    background-color: #00D0D9;
+    font-family: serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+form{
+    margin-top: 10px;
+}
+
+.fondo{
+    left: 20%;
+    background-color: mintcream;
+    text-align: center;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 30px;
+    background-color: #BBF9FC;
+    overflow: hidden;
+    margin-right: 0px;
+    position:relative;
+    left:-30px;
+    border-radius:25px;
+    overflow: auto;
+}
+.group{ 
+    position:relative; 
+    margin-bottom:25px; 
+    color:black     ;
+}
+.group h2 {
+    color: black;
+    position: relative;
+    text-align: center;
+}
+.formInput{
+    width: 50%;
+    height: 55px;
+    border-radius: 10px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    margin-top:0px;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+input:focus{ 
+    outline:none; 
+}
+.tit img{
+    position: static;
+    padding-left: 43%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1000px;
+}
+
+.ingresar{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ingresar:hover{
+    background: #7bc1c4;
+    transition: all .3s;
+}
+.abajo{
+    position: relative;
+    text-align: center;
+    background-color:#efefef;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.abajo:hover{
+    background: #7bc1c4;
+    transition: all .3s;
+}
+.cancelar{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
